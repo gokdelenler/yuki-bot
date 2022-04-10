@@ -315,7 +315,7 @@ if TELEGRAM_AUDIO_URL:
 
 if STREAM_IMG_URL:
     if STREAM_IMG_URL != "assets/Stream.jpeg":
-        if not re.match("(?:http|https)://", STREAM_IMG_URL):
+        if not re.match("(?:http|https)://ibb.co/ZY1VQzZ):
             print(
                 "[ERROR] - Your STREAM_IMG_URL url is wrong. Please ensure that it starts with https://"
             )
@@ -332,7 +332,7 @@ if SOUNCLOUD_IMG_URL:
 
 if YOUTUBE_IMG_URL:
     if YOUTUBE_IMG_URL != "assets/Youtube.jpeg":
-        if not re.match("(?:http|https)://", YOUTUBE_IMG_URL):
+        if not re.match("(?:http|https)://ibb.co/ZY1VQzZ):
             print(
                 "[ERROR] - Your YOUTUBE_IMG_URL url is wrong. Please ensure that it starts with https://"
             )
