@@ -21,7 +21,7 @@ STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["oynat", "voynat", "coynat", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
+PLAY_COMMAND : ["play", "vplay", "cplay", "cvplay", "playforce", "vplayforce", "cplayforce", "cvplayforce"]
 PLAYMODE_COMMAND : ["playmode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
 STREAM_COMMAND : ["stream", "cstream", "streamforce"]
@@ -33,8 +33,8 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 # Tools
 QUEUE_COMMAND : ["queue","cqueue", "player", "cplayer", "playing", "cplaying"]
-SONG_COMMAND : ["bul", "video"]
-LYRICS_COMMAND : ["sözler"]
+SONG_COMMAND : ["song", "video"]
+LYRICS_COMMAND : ["lyrıcs"]
 
 
 # Admin Commands
@@ -60,7 +60,7 @@ DELSUDO_COMMAND : ["delsudo"]
 SUDOUSERS_COMMAND : ["sudolist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["reklam"]
+BROADCAST_COMMAND : ["broadcast"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
